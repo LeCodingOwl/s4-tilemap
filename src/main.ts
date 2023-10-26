@@ -23,7 +23,7 @@ const imageUrls = [
 
 
 //defining the size of the main grid
-const numTiles = 32;
+const numTiles = 7;
 const tileSize = gridCanvas.width / numTiles;
 
 
