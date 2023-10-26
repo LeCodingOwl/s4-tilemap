@@ -8,6 +8,10 @@ const gridCtx = gridCanvas.getContext("2d") as CanvasRenderingContext2D;
 const selectCanvas = document.getElementById("selectCanvas") as HTMLCanvasElement;
 const selectCtx = selectCanvas.getContext("2d") as CanvasRenderingContext2D;
 
+class pageUrl {
+    tile1: string;
+    tile2: string;
+}
 
 //defining the textures to use
 const imageUrls = [
